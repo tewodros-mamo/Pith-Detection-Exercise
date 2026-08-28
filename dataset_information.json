@@ -1,0 +1,41 @@
+{
+  "version": "1.1",
+  "source_ids": "00001-05000",
+  "split_seed": 20260812,
+  "splits": {
+    "train": 4000,
+    "test": 1000
+  },
+  "image": {
+    "format": "PNG RGB",
+    "width_px": 512,
+    "height_px": 512,
+    "orientation": "x increases left-to-right; z increases bottom-to-top"
+  },
+  "board_dimensions_mm": {
+    "width_x": 145.0,
+    "length_z": 145.0
+  },
+  "targets": {
+    "count": 15,
+    "unit": "mm from the left board edge",
+    "order": "bottom-to-top at equally spaced z positions",
+    "z_positions_mm": [
+      0.0,
+      10.357143,
+      20.714286,
+      31.071429,
+      41.428571,
+      51.785714,
+      62.142857,
+      72.5,
+      82.857143,
+      93.214286,
+      103.571429,
+      113.928571,
+      124.285714,
+      134.642857,
+      145.0
+    ]
+  }
+}

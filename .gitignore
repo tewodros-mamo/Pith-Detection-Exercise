@@ -1,0 +1,7 @@
+# dataset & caches (re-downloadable from the exercise release / rebuilt by preprocess.py)
+train.zip
+test.zip
+train/
+test/
+cache_*
+__pycache__/
